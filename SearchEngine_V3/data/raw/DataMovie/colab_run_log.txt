@@ -1,0 +1,844 @@
+2026-03-13 09:10:17,862 - [-] Không tìm thấy file movies_data.json trong thư mục MovieProject!
+2026-03-13 09:12:14,059 - [-] Không tìm thấy file movies_data.json trong thư mục MovieProject!
+2026-03-13 09:12:41,566 - [*] Khởi tạo mô hình Whisper (Tối ưu cho Google Colab T4 GPU)...
+2026-03-13 09:13:50,237 - 
+==========================================
+2026-03-13 09:13:50,238 - [*] GOOGLE COLAB ĐANG XỬ LÝ: The Godfather
+2026-03-13 09:13:53,422 - [*] Bắt đầu tải Video & Cắt ảnh (Mạng siêu tốc Google - 1 tấm/180s)...
+2026-03-13 09:25:22,899 - [*] Khởi tạo mô hình Whisper (Tối ưu cho Google Colab T4 GPU)...
+2026-03-13 09:25:35,215 - 
+==========================================
+2026-03-13 09:25:35,216 - [*] GOOGLE COLAB ĐANG XỬ LÝ: The Godfather
+2026-03-13 09:25:35,217 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:36,324 - [-] Lỗi xử lý phim The Godfather: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20231017/sO7PyfCM/index.m3u8', '-o', 'DataMovie/The_Godfather/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:39,629 - 
+==========================================
+2026-03-13 09:25:39,630 - [*] GOOGLE COLAB ĐANG XỬ LÝ: The Shawshank Redemption
+2026-03-13 09:25:39,631 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:40,064 - [-] Lỗi xử lý phim The Shawshank Redemption: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20231019/SRNpBmu7/index.m3u8', '-o', 'DataMovie/The_Shawshank_Redemption/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:43,051 - 
+==========================================
+2026-03-13 09:25:43,052 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Iron Man 3
+2026-03-13 09:25:43,053 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:43,464 - [-] Lỗi xử lý phim Iron Man 3: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20231021/vljkPrDh/index.m3u8', '-o', 'DataMovie/Iron_Man_3/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:46,560 - 
+==========================================
+2026-03-13 09:25:46,560 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Real Steel
+2026-03-13 09:25:46,561 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:46,987 - [-] Lỗi xử lý phim Real Steel: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20231019/8gSZiq6X/index.m3u8', '-o', 'DataMovie/Real_Steel/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:49,624 - 
+==========================================
+2026-03-13 09:25:49,625 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Casablanca
+2026-03-13 09:25:49,626 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:50,185 - [-] Lỗi xử lý phim Casablanca: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20240115/nXEnjdtk/index.m3u8', '-o', 'DataMovie/Casablanca/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:53,201 - 
+==========================================
+2026-03-13 09:25:53,201 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Citizen Kane
+2026-03-13 09:25:53,202 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:53,623 - [-] Lỗi xử lý phim Citizen Kane: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s2.phim1280.tv/20231223/zzfSrxYt/index.m3u8', '-o', 'DataMovie/Citizen_Kane/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:25:56,873 - 
+==========================================
+2026-03-13 09:25:56,874 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Gone with the Wind
+2026-03-13 09:25:56,875 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:25:57,303 - [-] Lỗi xử lý phim Gone with the Wind: Command '['yt-dlp', '--concurrent-fragments', '16', '-q', '--show-progress', 'https://s1.phim1280.tv/20231018/QoIrCt2I/index.m3u8', '-o', 'DataMovie/Gone_with_the_Wind/temp/temp_video.mp4']' returned non-zero exit status 2.
+2026-03-13 09:27:18,495 - [*] Khởi tạo mô hình Whisper (Tối ưu cho Google Colab T4 GPU)...
+2026-03-13 09:27:26,334 - 
+==========================================
+2026-03-13 09:27:26,334 - [*] GOOGLE COLAB ĐANG XỬ LÝ: The Godfather
+2026-03-13 09:27:26,335 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 09:30:41,637 - [*] Bắt đầu băm Hình ảnh & Âm thanh từ ổ cứng cục bộ...
+2026-03-13 09:44:06,895 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 09:44:10,166 - Processing audio with duration 02:54:39.700
+2026-03-13 09:45:13,647 - VAD filter removed 01:26:27.988 of audio
+2026-03-13 09:45:30,593 - Detected language 'en' with probability 0.84
+2026-03-13 09:58:14,292 - 
+==========================================
+2026-03-13 09:58:14,292 - [*] GOOGLE COLAB ĐANG XỬ LÝ: The Shawshank Redemption
+2026-03-13 09:58:14,293 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 10:00:56,182 - [*] Bắt đầu băm Hình ảnh & Âm thanh từ ổ cứng cục bộ...
+2026-03-13 10:12:21,708 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 10:12:24,101 - Processing audio with duration 02:22:59.170
+2026-03-13 10:13:17,363 - VAD filter removed 01:03:10.338 of audio
+2026-03-13 10:13:32,943 - Detected language 'en' with probability 0.73
+2026-03-13 10:26:05,316 - 
+==========================================
+2026-03-13 10:26:05,317 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Iron Man 3
+2026-03-13 10:26:05,318 - [*] Đang kéo video Đa Luồng (16 connections) từ máy chủ phim...
+2026-03-13 10:28:25,701 - [*] Bắt đầu băm Hình ảnh & Âm thanh từ ổ cứng cục bộ...
+2026-03-13 10:36:26,148 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 10:36:28,370 - Processing audio with duration 02:11:05.156
+2026-03-13 10:37:16,754 - VAD filter removed 01:00:15.364 of audio
+2026-03-13 10:37:29,760 - Detected language 'en' with probability 0.98
+2026-03-13 14:44:11,143 - [*] Khởi tạo mô hình Whisper (Tối ưu cho Google Colab T4 GPU)...
+2026-03-13 14:44:49,957 - 
+==========================================
+2026-03-13 14:44:49,958 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Iron Man 3
+2026-03-13 14:44:53,807 - [*] Bắt đầu tải Video & Cắt ảnh (Mạng siêu tốc Google - 1 tấm/180s)...
+2026-03-13 15:10:45,944 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 15:10:47,978 - Processing audio with duration 02:11:05.156
+2026-03-13 15:11:41,933 - VAD filter removed 01:00:15.364 of audio
+2026-03-13 15:11:54,713 - Detected language 'en' with probability 0.98
+2026-03-13 15:22:22,069 - 
+==========================================
+2026-03-13 15:22:22,070 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Real Steel
+2026-03-13 15:22:25,284 - [*] Bắt đầu tải Video & Cắt ảnh (Mạng siêu tốc Google - 1 tấm/180s)...
+2026-03-13 15:48:38,615 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 15:48:39,984 - Processing audio with duration 02:07:22.894
+2026-03-13 15:49:28,749 - VAD filter removed 56:41.967 of audio
+2026-03-13 15:49:40,672 - Detected language 'en' with probability 0.36
+2026-03-13 16:02:15,961 - 
+==========================================
+2026-03-13 16:02:15,963 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Casablanca
+2026-03-13 16:02:19,089 - [*] Bắt đầu tải Video & Cắt ảnh (Mạng siêu tốc Google - 1 tấm/120s)...
+2026-03-13 16:27:34,591 - [*] Bắt đầu nhận diện giọng nói (Whisper AI)...
+2026-03-13 16:27:36,187 - Processing audio with duration 01:43:10.417
+2026-03-13 16:28:17,015 - VAD filter removed 32:24.081 of audio
+2026-03-13 16:28:28,662 - Detected language 'en' with probability 0.97
+2026-03-13 16:38:44,959 - 
+==========================================
+2026-03-13 16:38:44,959 - [*] GOOGLE COLAB ĐANG XỬ LÝ: Citizen Kane
+2026-03-13 16:38:48,269 - [*] Bắt đầu tải Video & Cắt ảnh (Mạng siêu tốc Google - 1 tấm/120s)...
+2026-03-13 17:51:05,368 - [*] Khởi tạo mô hình Whisper (Tối ưu cho Google Colab T4 GPU)...
+2026-03-18 04:30:14,991 - [*] Khởi tạo công cụ FFmpeg (Chế độ CHỈ CẮT ẢNH, bỏ qua Audio)...
+2026-03-18 04:30:15,749 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 04:30:16,085 - [+] 'Real Steel' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 04:30:16,586 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 04:30:16,593 - 
+==========================================
+2026-03-18 04:30:16,593 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Citizen Kane
+2026-03-18 04:30:16,594 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 04:32:56,201 - [*] Bắt đầu băm Hình ảnh từ ổ cứng cục bộ (1 tấm / 120s)...
+2026-03-18 18:57:40,557 - [*] Khởi tạo công cụ FFmpeg (Chế độ CHỈ CẮT ẢNH SIÊU TỐC)...
+2026-03-18 18:57:41,871 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 18:57:42,316 - [+] 'Real Steel' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 18:57:42,730 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 18:57:43,361 - [+] Đã đồng bộ thành công phụ đề từ: Citizen Kane.en.txt
+2026-03-18 18:57:43,362 - 
+==========================================
+2026-03-18 18:57:43,362 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Citizen Kane
+2026-03-18 18:57:43,363 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:00:15,648 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:01:43,319 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:01:43,699 - [+] Đã đồng bộ thành công phụ đề từ: Gone with the Wind.en.txt
+2026-03-18 19:01:43,701 - 
+==========================================
+2026-03-18 19:01:43,701 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Gone with the Wind
+2026-03-18 19:01:43,702 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:06:12,695 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 19:07:11,641 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:07:12,191 - [+] Đã đồng bộ thành công phụ đề từ: The Wizard of Oz.en.txt
+2026-03-18 19:07:12,192 - 
+==========================================
+2026-03-18 19:07:12,192 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Wizard of Oz
+2026-03-18 19:07:12,193 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:09:30,363 - [*] Khởi tạo công cụ FFmpeg (Chế độ CHỈ CẮT ẢNH SIÊU TỐC)...
+2026-03-18 19:09:31,103 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 19:09:31,565 - [+] 'Real Steel' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 19:09:32,214 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 19:09:32,856 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 19:09:33,375 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 19:09:33,681 - [+] Đã đồng bộ thành công phụ đề từ: The Wizard of Oz.en.txt
+2026-03-18 19:09:33,682 - 
+==========================================
+2026-03-18 19:09:33,683 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Wizard of Oz
+2026-03-18 19:09:33,683 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:12:39,072 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:13:13,455 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:13:13,710 - [+] Đã đồng bộ thành công phụ đề từ: Pacific Rim: Uprising.en.txt
+2026-03-18 19:13:13,711 - 
+==========================================
+2026-03-18 19:13:13,711 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Pacific Rim: Uprising
+2026-03-18 19:13:13,712 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:17:48,980 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:19:44,603 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:19:45,156 - [+] Đã đồng bộ thành công phụ đề từ: Lawrence of Arabia.en.txt
+2026-03-18 19:19:45,157 - 
+==========================================
+2026-03-18 19:19:45,157 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Lawrence of Arabia
+2026-03-18 19:19:45,158 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:25:23,608 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 19:27:42,262 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:27:42,891 - [+] Đã đồng bộ thành công phụ đề từ: Angel Guts: Red Vertigo.en.txt
+2026-03-18 19:27:42,892 - 
+==========================================
+2026-03-18 19:27:42,892 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Angel Guts: Red Vertigo
+2026-03-18 19:27:42,893 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:29:58,768 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:31:20,636 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:31:21,160 - [+] Đã đồng bộ thành công phụ đề từ: Psycho.en.txt
+2026-03-18 19:31:21,161 - 
+==========================================
+2026-03-18 19:31:21,161 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Psycho
+2026-03-18 19:31:21,162 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:34:56,672 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:38:26,754 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:38:27,369 - [+] Đã đồng bộ thành công phụ đề từ: The Godfather Part III.en.txt
+2026-03-18 19:38:27,370 - 
+==========================================
+2026-03-18 19:38:27,370 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Godfather Part III
+2026-03-18 19:38:27,371 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:42:48,236 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 19:44:04,209 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:44:04,808 - [+] Đã đồng bộ thành công phụ đề từ: On the Waterfront.en.txt
+2026-03-18 19:44:04,810 - 
+==========================================
+2026-03-18 19:44:04,810 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): On the Waterfront
+2026-03-18 19:44:04,811 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:48:19,749 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:51:12,948 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:51:13,628 - [+] Đã đồng bộ thành công phụ đề từ: The Searchers.en.txt
+2026-03-18 19:51:13,630 - 
+==========================================
+2026-03-18 19:51:13,631 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Searchers
+2026-03-18 19:51:13,632 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 19:55:43,324 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 19:58:27,883 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 19:58:28,990 - [+] Đã đồng bộ thành công phụ đề từ: Seven Samurai.en.txt
+2026-03-18 19:58:28,996 - 
+==========================================
+2026-03-18 19:58:28,997 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Seven Samurai
+2026-03-18 19:58:29,000 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:05:38,732 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:10:22,945 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:10:23,609 - [+] Đã đồng bộ thành công phụ đề từ: Harry Potter and the Half-Blood Prince.en.txt
+2026-03-18 20:10:23,610 - 
+==========================================
+2026-03-18 20:10:23,610 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Harry Potter and the Half-Blood Prince
+2026-03-18 20:10:23,611 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:13:39,921 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:15:31,126 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:15:31,707 - [+] Đã đồng bộ thành công phụ đề từ: 12 Angry Men.en.txt
+2026-03-18 20:15:31,710 - 
+==========================================
+2026-03-18 20:15:31,710 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): 12 Angry Men
+2026-03-18 20:15:31,711 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:18:40,231 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 20:19:53,850 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:19:54,260 - [+] Đã đồng bộ thành công phụ đề từ: Spirited Away.en.txt
+2026-03-18 20:19:54,261 - 
+==========================================
+2026-03-18 20:19:54,261 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Spirited Away
+2026-03-18 20:19:54,262 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:23:45,000 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:26:19,606 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:26:20,117 - [+] Đã đồng bộ thành công phụ đề từ: Parasite.en.txt
+2026-03-18 20:26:20,119 - 
+==========================================
+2026-03-18 20:26:20,121 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Parasite
+2026-03-18 20:26:20,124 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:30:22,168 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:31:55,349 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:31:55,961 - [+] Đã đồng bộ thành công phụ đề từ: Pulp Fiction.en.txt
+2026-03-18 20:31:55,962 - 
+==========================================
+2026-03-18 20:31:55,963 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Pulp Fiction
+2026-03-18 20:31:55,963 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:36:31,429 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:39:09,569 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:39:10,165 - [+] Đã đồng bộ thành công phụ đề từ: Forrest Gump.en.txt
+2026-03-18 20:39:10,167 - 
+==========================================
+2026-03-18 20:39:10,167 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Forrest Gump
+2026-03-18 20:39:10,169 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:43:07,969 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:45:03,228 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:45:03,821 - [+] Đã đồng bộ thành công phụ đề từ: Inception.en.txt
+2026-03-18 20:45:03,822 - 
+==========================================
+2026-03-18 20:45:03,822 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Inception
+2026-03-18 20:45:03,823 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:49:30,333 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:51:20,856 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:51:21,229 - [+] Đã đồng bộ thành công phụ đề từ: The Matrix.en.txt
+2026-03-18 20:51:21,230 - 
+==========================================
+2026-03-18 20:51:21,230 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Matrix
+2026-03-18 20:51:21,231 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 20:55:37,308 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 20:57:59,597 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 20:57:59,967 - [+] Đã đồng bộ thành công phụ đề từ: GoodFellas.en.txt
+2026-03-18 20:57:59,972 - 
+==========================================
+2026-03-18 20:57:59,974 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): GoodFellas
+2026-03-18 20:57:59,979 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:02:58,547 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 21:05:31,003 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:05:31,758 - [+] Đã đồng bộ thành công phụ đề từ: Star Wars: Episode VIII - The Last Jedi.en.txt
+2026-03-18 21:05:31,762 - 
+==========================================
+2026-03-18 21:05:31,764 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Star Wars: Episode VIII - The Last Jedi
+2026-03-18 21:05:31,766 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:10:16,603 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 21:12:19,758 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:12:20,664 - [+] Đã đồng bộ thành công phụ đề từ: The Silence of the Lambs.en.txt
+2026-03-18 21:12:20,666 - 
+==========================================
+2026-03-18 21:12:20,667 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Silence of the Lambs
+2026-03-18 21:12:20,667 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:16:00,499 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 21:17:33,194 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:17:33,712 - [+] Đã đồng bộ thành công phụ đề từ: Saving Private Ryan.en.txt
+2026-03-18 21:17:33,713 - 
+==========================================
+2026-03-18 21:17:33,714 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Saving Private Ryan
+2026-03-18 21:17:33,714 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:23:12,312 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 21:26:22,851 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:26:23,863 - [+] Đã đồng bộ thành công phụ đề từ: City Of God.en.txt
+2026-03-18 21:26:23,866 - 
+==========================================
+2026-03-18 21:26:23,868 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): City Of God
+2026-03-18 21:26:23,870 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:31:20,693 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 21:34:47,189 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:34:47,519 - [+] Đã đồng bộ thành công phụ đề từ: Life Is Beautiful.en.txt
+2026-03-18 21:34:47,523 - 
+==========================================
+2026-03-18 21:34:47,524 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Life Is Beautiful
+2026-03-18 21:34:47,526 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:38:49,084 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 21:41:46,577 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:41:47,778 - [+] Đã đồng bộ thành công phụ đề từ: Avatar: Fire and Ash.en.txt
+2026-03-18 21:41:47,779 - 
+==========================================
+2026-03-18 21:41:47,780 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Avatar: Fire and Ash
+2026-03-18 21:41:47,783 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 21:49:58,535 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 21:56:03,394 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 21:56:03,919 - [+] Đã đồng bộ thành công phụ đề từ: Interstellar.en.txt
+2026-03-18 21:56:03,921 - 
+==========================================
+2026-03-18 21:56:03,921 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Interstellar
+2026-03-18 21:56:03,923 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:01:58,939 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 22:05:18,536 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:05:19,333 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-18 22:05:19,340 - 
+==========================================
+2026-03-18 22:05:19,341 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Green Mile
+2026-03-18 22:05:19,345 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:12:20,785 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 22:16:37,646 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:16:38,445 - [+] Đã đồng bộ thành công phụ đề từ: Gladiator II.en.txt
+2026-03-18 22:16:38,450 - 
+==========================================
+2026-03-18 22:16:38,450 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Gladiator II
+2026-03-18 22:16:38,451 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:21:53,325 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 22:24:06,881 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:24:07,933 - [+] Đã đồng bộ thành công phụ đề từ: The Lion King.en.txt
+2026-03-18 22:24:07,936 - 
+==========================================
+2026-03-18 22:24:07,936 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Lion King
+2026-03-18 22:24:07,943 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:27:52,802 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 22:31:21,044 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:31:21,586 - [+] Đã đồng bộ thành công phụ đề từ: Back To The Future Part III.en.txt
+2026-03-18 22:31:21,587 - 
+==========================================
+2026-03-18 22:31:21,588 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Back To The Future Part III
+2026-03-18 22:31:21,588 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:35:28,687 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 22:38:53,241 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:38:53,826 - [+] Đã đồng bộ thành công phụ đề từ: Terminator 2: Judgment Day.en.txt
+2026-03-18 22:38:53,829 - 
+==========================================
+2026-03-18 22:38:53,829 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Terminator 2: Judgment Day
+2026-03-18 22:38:53,831 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:43:37,169 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 22:48:04,536 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:48:04,602 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Amazing Alien' trong Drive!
+2026-03-18 22:48:04,607 - 
+==========================================
+2026-03-18 22:48:04,608 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Amazing Alien
+2026-03-18 22:48:04,612 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:51:19,564 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 22:53:05,404 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:53:05,912 - [+] Đã đồng bộ thành công phụ đề từ: Grave Of The Fireflies.en.txt
+2026-03-18 22:53:05,914 - 
+==========================================
+2026-03-18 22:53:05,914 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Grave Of The Fireflies
+2026-03-18 22:53:05,915 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 22:55:39,320 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 22:57:21,660 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 22:57:21,932 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-18 22:57:21,933 - 
+==========================================
+2026-03-18 22:57:21,933 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Joker: Folie à Deux
+2026-03-18 22:57:21,934 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:01:05,584 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:03:09,742 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:03:10,504 - [+] Đã đồng bộ thành công phụ đề từ: Cinema Paradiso.en.txt
+2026-03-18 23:03:10,505 - 
+==========================================
+2026-03-18 23:03:10,506 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Cinema Paradiso
+2026-03-18 23:03:10,512 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:08:36,609 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:11:31,687 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:11:32,241 - [+] Đã đồng bộ thành công phụ đề từ: Oldboy.en.txt
+2026-03-18 23:11:32,244 - 
+==========================================
+2026-03-18 23:11:32,245 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Oldboy
+2026-03-18 23:11:32,247 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:15:35,632 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:17:24,894 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:17:25,307 - [+] Đã đồng bộ thành công phụ đề từ: Toy Story 4.en.txt
+2026-03-18 23:17:25,310 - 
+==========================================
+2026-03-18 23:17:25,310 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Toy Story 4
+2026-03-18 23:17:25,311 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:21:09,002 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 23:22:50,883 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:22:51,349 - [+] Đã đồng bộ thành công phụ đề từ: Cocoon: Aru Natsu no Shoujo-tachi yori.en.txt
+2026-03-18 23:22:51,350 - 
+==========================================
+2026-03-18 23:22:51,350 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Cocoon: Aru Natsu no Shoujo-tachi yori
+2026-03-18 23:22:51,351 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:24:28,991 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 23:24:53,001 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:24:53,401 - [+] Đã đồng bộ thành công phụ đề từ: The Dark Knight.en.txt
+2026-03-18 23:24:53,402 - 
+==========================================
+2026-03-18 23:24:53,403 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Dark Knight
+2026-03-18 23:24:53,403 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:31:04,403 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:34:00,619 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:34:01,043 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Amélie' trong Drive!
+2026-03-18 23:34:01,048 - 
+==========================================
+2026-03-18 23:34:01,049 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Amélie
+2026-03-18 23:34:01,052 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:37:13,651 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:37:49,533 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:37:49,767 - [+] Đã đồng bộ thành công phụ đề từ: Eternal Sunshine of the Spotless Mind.en.txt
+2026-03-18 23:37:49,768 - 
+==========================================
+2026-03-18 23:37:49,769 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Eternal Sunshine of the Spotless Mind
+2026-03-18 23:37:49,770 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:41:45,470 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 23:43:04,546 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:43:05,152 - [+] Đã đồng bộ thành công phụ đề từ: Mad Max: Fury Road.en.txt
+2026-03-18 23:43:05,153 - 
+==========================================
+2026-03-18 23:43:05,154 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Mad Max: Fury Road
+2026-03-18 23:43:05,155 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:47:46,983 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:51:33,214 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:51:33,561 - [+] Đã đồng bộ thành công phụ đề từ: Whiplash.en.txt
+2026-03-18 23:51:33,564 - 
+==========================================
+2026-03-18 23:51:33,565 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Whiplash
+2026-03-18 23:51:33,569 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:54:15,251 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-18 23:55:11,909 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:55:12,409 - [+] Đã đồng bộ thành công phụ đề từ: Call Me by Your Name.en.txt
+2026-03-18 23:55:12,410 - 
+==========================================
+2026-03-18 23:55:12,410 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Call Me by Your Name
+2026-03-18 23:55:12,411 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-18 23:57:44,547 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-18 23:59:18,287 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-18 23:59:18,787 - [+] 'The Godfather' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 23:59:19,221 - [+] 'The Shawshank Redemption' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 23:59:19,242 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-18 23:59:19,558 - [+] Đã đồng bộ thành công phụ đề từ: Raging Bull.en.txt
+2026-03-18 23:59:19,560 - 
+==========================================
+2026-03-18 23:59:19,560 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Raging Bull
+2026-03-18 23:59:19,562 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:04:36,110 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:07:46,084 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:07:46,119 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:46,147 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:46,191 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:46,400 - [+] 'The Wizard of Oz' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:46,740 - [+] 'Avatar: Fire and Ash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,177 - [+] 'Lawrence of Arabia' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,245 - [+] 'Angel Guts: Red Vertigo' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,372 - [+] 'Psycho' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,659 - [+] 'The Godfather Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,789 - [+] 'On the Waterfront' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:47,960 - [+] 'The Searchers' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:07:48,428 - [+] Đã đồng bộ thành công phụ đề từ: Predator: Badlands.en.txt
+2026-03-19 00:07:48,431 - 
+==========================================
+2026-03-19 00:07:48,432 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Predator: Badlands
+2026-03-19 00:07:48,435 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:11:04,781 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-19 00:13:07,798 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:13:07,989 - [+] '12 Angry Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:08,250 - [+] 'Pulp Fiction' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:08,431 - [+] 'Forrest Gump' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:08,611 - [+] 'Inception' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:08,753 - [+] 'The Matrix' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:08,936 - [+] 'GoodFellas' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:13:09,519 - [+] Đã đồng bộ thành công phụ đề từ: Star Wars: The Force Awakens.en.txt
+2026-03-19 00:13:09,520 - 
+==========================================
+2026-03-19 00:13:09,521 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Star Wars: The Force Awakens
+2026-03-19 00:13:09,522 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:17:17,601 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:18:55,832 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:18:56,076 - [+] 'The Silence of the Lambs' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:56,251 - [+] 'Saving Private Ryan' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:56,592 - [+] 'Interstellar' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:56,607 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-19 00:18:56,814 - [+] 'The Green Mile' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,019 - [+] 'Gladiator II' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,156 - [+] 'The Lion King' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,254 - [+] 'Back To The Future Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,394 - [+] 'Terminator 2: Judgment Day' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,401 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-19 00:18:57,598 - [+] 'Joker: Folie à Deux' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:57,864 - [+] 'Toy Story 4' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:58,110 - [+] 'The Dark Knight' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:58,319 - [+] 'Eternal Sunshine of the Spotless Mind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:58,419 - [+] 'Mad Max: Fury Road' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:58,574 - [+] 'Whiplash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 00:18:58,866 - [+] Đã đồng bộ thành công phụ đề từ: The Lord of the Rings: The Fellowship of the Ring.en.txt
+2026-03-19 00:18:58,869 - 
+==========================================
+2026-03-19 00:18:58,870 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Lord of the Rings: The Fellowship of the Ring
+2026-03-19 00:18:58,873 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:25:28,767 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:28:53,890 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:28:54,603 - [+] Đã đồng bộ thành công phụ đề từ: The Prestige.en.txt
+2026-03-19 00:28:54,604 - 
+==========================================
+2026-03-19 00:28:54,605 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Prestige
+2026-03-19 00:28:54,605 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:32:47,946 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:33:47,951 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:33:48,590 - [+] Đã đồng bộ thành công phụ đề từ: The Departed.en.txt
+2026-03-19 00:33:48,591 - 
+==========================================
+2026-03-19 00:33:48,592 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Departed
+2026-03-19 00:33:48,592 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:38:02,623 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:39:21,820 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:39:22,267 - [+] Đã đồng bộ thành công phụ đề từ: Female Fight Club.en.txt
+2026-03-19 00:39:22,268 - 
+==========================================
+2026-03-19 00:39:22,268 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Female Fight Club
+2026-03-19 00:39:22,269 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:42:23,473 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:43:29,932 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:43:30,394 - [+] Đã đồng bộ thành công phụ đề từ: Memento.en.txt
+2026-03-19 00:43:30,395 - 
+==========================================
+2026-03-19 00:43:30,396 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Memento
+2026-03-19 00:43:30,397 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:47:35,145 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-19 00:49:26,354 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:49:26,852 - [+] Đã đồng bộ thành công phụ đề từ: No Country for Old Men.en.txt
+2026-03-19 00:49:26,857 - 
+==========================================
+2026-03-19 00:49:26,858 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): No Country for Old Men
+2026-03-19 00:49:26,858 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 00:53:01,910 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 00:54:16,485 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 00:54:17,009 - [+] Đã đồng bộ thành công phụ đề từ: Braveheart.en.txt
+2026-03-19 00:54:17,013 - 
+==========================================
+2026-03-19 00:54:17,014 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Braveheart
+2026-03-19 00:54:17,018 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:01:49,692 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 01:06:08,108 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:06:09,104 - [+] Đã đồng bộ thành công phụ đề từ: The Usual Suspects.en.txt
+2026-03-19 01:06:09,117 - 
+==========================================
+2026-03-19 01:06:09,118 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Usual Suspects
+2026-03-19 01:06:09,131 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:09:48,785 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 120s)...
+2026-03-19 01:10:45,593 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:10:45,986 - [+] Đã đồng bộ thành công phụ đề từ: Apocalypse Now.en.txt
+2026-03-19 01:10:45,987 - 
+==========================================
+2026-03-19 01:10:45,988 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Apocalypse Now
+2026-03-19 01:10:45,989 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:18:51,362 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 01:24:16,667 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:24:17,303 - [+] Đã đồng bộ thành công phụ đề từ: The Shining.en.txt
+2026-03-19 01:24:17,313 - 
+==========================================
+2026-03-19 01:24:17,316 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): The Shining
+2026-03-19 01:24:17,324 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:28:18,719 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 01:30:40,003 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:30:40,022 - [+] 'The Godfather' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,025 - [+] 'The Shawshank Redemption' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,036 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,256 - [+] 'Raging Bull' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,271 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,287 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,328 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,493 - [+] 'The Wizard of Oz' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:40,856 - [+] 'Avatar: Fire and Ash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,271 - [+] 'Lawrence of Arabia' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,371 - [+] 'Angel Guts: Red Vertigo' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,458 - [+] 'Psycho' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,704 - [+] 'The Godfather Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,813 - [+] 'On the Waterfront' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:41,986 - [+] 'The Searchers' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:42,084 - [+] 'Predator: Badlands' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:42,306 - [+] '12 Angry Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:42,572 - [+] 'Pulp Fiction' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:42,738 - [+] 'Forrest Gump' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:42,898 - [+] 'Inception' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:43,064 - [+] 'The Matrix' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:43,238 - [+] 'GoodFellas' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:43,407 - [+] 'Star Wars: The Force Awakens' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:43,663 - [+] 'The Silence of the Lambs' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:43,851 - [+] 'Saving Private Ryan' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:30:44,219 - [+] Đã đồng bộ thành công phụ đề từ: Seven Days.en.txt
+2026-03-19 01:30:44,220 - 
+==========================================
+2026-03-19 01:30:44,221 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Seven Days
+2026-03-19 01:30:44,221 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:35:53,886 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 180s)...
+2026-03-19 01:37:06,517 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:37:06,888 - [+] 'Interstellar' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:06,913 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-19 01:37:07,154 - [+] 'The Green Mile' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:07,364 - [+] 'Gladiator II' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:07,503 - [+] 'The Lion King' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:07,613 - [+] 'Back To The Future Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:07,764 - [+] 'Terminator 2: Judgment Day' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:37:07,795 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Aliens Among Immortals' trong Drive!
+2026-03-19 01:37:07,797 - 
+==========================================
+2026-03-19 01:37:07,798 - [*] GOOGLE COLAB ĐANG XỬ LÝ (CHỈ CẮT ẢNH): Aliens Among Immortals
+2026-03-19 01:37:07,801 - [*] Đang kéo video Đa Luồng từ máy chủ phim...
+2026-03-19 01:37:36,642 - [*] Bắt đầu băm Hình ảnh siêu tốc (1 tấm / 30s)...
+2026-03-19 01:39:59,642 - 
+[SUCCESS] Cắt ảnh hoàn tất!
+2026-03-19 01:39:59,656 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-19 01:39:59,946 - [+] 'Joker: Folie à Deux' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:00,268 - [+] 'Toy Story 4' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:00,525 - [+] 'The Dark Knight' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:00,758 - [+] 'Eternal Sunshine of the Spotless Mind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:00,894 - [+] 'Mad Max: Fury Road' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:01,115 - [+] 'Whiplash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:01,524 - [+] 'The Lord of the Rings: The Fellowship of the Ring' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:01,705 - [+] 'The Prestige' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:01,943 - [+] 'The Departed' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:02,052 - [+] 'Female Fight Club' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:02,225 - [+] 'Memento' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:02,392 - [+] 'No Country for Old Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:02,675 - [+] 'Braveheart' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:02,886 - [+] 'The Usual Suspects' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:03,113 - [+] 'Apocalypse Now' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 01:40:03,309 - [+] 'The Shining' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,032 - [*] Khởi tạo công cụ FFmpeg (Chế độ CHỈ CẮT ẢNH SIÊU TỐC)...
+2026-03-19 03:06:43,039 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,045 - [+] 'Real Steel' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,049 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,058 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,079 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,207 - [+] 'The Wizard of Oz' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,311 - [+] 'Pacific Rim: Uprising' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,578 - [+] 'Lawrence of Arabia' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,623 - [+] 'Angel Guts: Red Vertigo' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,694 - [+] 'Psycho' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,864 - [+] 'The Godfather Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:43,922 - [+] 'On the Waterfront' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,053 - [+] 'The Searchers' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,339 - [+] 'Seven Samurai' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,445 - [+] 'Harry Potter and the Half-Blood Prince' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,579 - [+] '12 Angry Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,732 - [+] 'Spirited Away' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:44,975 - [+] 'Parasite' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:45,360 - [+] 'Pulp Fiction' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:45,683 - [+] 'Forrest Gump' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:45,967 - [+] 'Inception' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:46,197 - [+] 'The Matrix' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:46,417 - [+] 'GoodFellas' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:46,827 - [+] 'Star Wars: Episode VIII - The Last Jedi' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:47,137 - [+] 'The Silence of the Lambs' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:47,536 - [+] 'Saving Private Ryan' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:47,731 - [+] 'City Of God' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:47,894 - [+] 'Life Is Beautiful' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:48,269 - [+] 'Avatar: Fire and Ash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:48,524 - [+] 'Interstellar' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:48,531 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-19 03:06:48,739 - [+] 'The Green Mile' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:48,933 - [+] 'Gladiator II' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,066 - [+] 'The Lion King' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,183 - [+] 'Back To The Future Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,319 - [+] 'Terminator 2: Judgment Day' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,322 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Amazing Alien' trong Drive!
+2026-03-19 03:06:49,412 - [+] 'The Amazing Alien' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,516 - [+] 'Grave Of The Fireflies' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,522 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-19 03:06:49,649 - [+] 'Joker: Folie à Deux' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,852 - [+] 'Cinema Paradiso' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:49,989 - [+] 'Oldboy' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,183 - [+] 'Toy Story 4' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,256 - [+] 'Cocoon: Aru Natsu no Shoujo-tachi yori' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,481 - [+] 'The Dark Knight' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,497 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Amélie' trong Drive!
+2026-03-19 03:06:50,689 - [+] 'Amélie' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,837 - [+] 'Eternal Sunshine of the Spotless Mind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:50,938 - [+] 'Mad Max: Fury Road' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,144 - [+] 'Whiplash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,218 - [+] 'Call Me by Your Name' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,226 - [+] 'The Godfather' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,231 - [+] 'The Shawshank Redemption' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,235 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,407 - [+] 'Raging Bull' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,410 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,418 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,427 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,442 - [+] 'The Wizard of Oz' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,452 - [+] 'Avatar: Fire and Ash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,466 - [+] 'Lawrence of Arabia' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,475 - [+] 'Angel Guts: Red Vertigo' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,482 - [+] 'Psycho' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,491 - [+] 'The Godfather Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,501 - [+] 'On the Waterfront' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,511 - [+] 'The Searchers' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,608 - [+] 'Predator: Badlands' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,617 - [+] '12 Angry Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,628 - [+] 'Pulp Fiction' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,637 - [+] 'Forrest Gump' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,648 - [+] 'Inception' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,659 - [+] 'The Matrix' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,670 - [+] 'GoodFellas' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,850 - [+] 'Star Wars: The Force Awakens' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,860 - [+] 'The Silence of the Lambs' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,874 - [+] 'Saving Private Ryan' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,889 - [+] 'Interstellar' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,895 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-19 03:06:51,908 - [+] 'The Green Mile' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,923 - [+] 'Gladiator II' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,935 - [+] 'The Lion King' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,946 - [+] 'Back To The Future Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,956 - [+] 'Terminator 2: Judgment Day' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,961 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-19 03:06:51,967 - [+] 'Joker: Folie à Deux' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,975 - [+] 'Toy Story 4' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,990 - [+] 'The Dark Knight' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:51,999 - [+] 'Eternal Sunshine of the Spotless Mind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,006 - [+] 'Mad Max: Fury Road' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,017 - [+] 'Whiplash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,046 - [+] 'The Lord of the Rings: The Fellowship of the Ring' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,340 - [+] 'The Prestige' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,521 - [+] 'The Departed' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,603 - [+] 'Female Fight Club' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,625 - [+] 'Memento' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:52,866 - [+] 'No Country for Old Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,073 - [+] 'Braveheart' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,215 - [+] 'The Usual Suspects' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,243 - [+] 'Apocalypse Now' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,493 - [+] 'The Shining' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,497 - [+] 'The Godfather' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,501 - [+] 'The Shawshank Redemption' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,505 - [+] 'Iron Man 3' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,519 - [+] 'Raging Bull' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,524 - [+] 'Casablanca' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,527 - [+] 'Citizen Kane' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,534 - [+] 'Gone with the Wind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,541 - [+] 'The Wizard of Oz' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,552 - [+] 'Avatar: Fire and Ash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,567 - [+] 'Lawrence of Arabia' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,574 - [+] 'Angel Guts: Red Vertigo' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,582 - [+] 'Psycho' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,593 - [+] 'The Godfather Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,601 - [+] 'On the Waterfront' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,613 - [+] 'The Searchers' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,620 - [+] 'Predator: Badlands' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,630 - [+] '12 Angry Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,641 - [+] 'Pulp Fiction' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,650 - [+] 'Forrest Gump' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,660 - [+] 'Inception' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,668 - [+] 'The Matrix' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,679 - [+] 'GoodFellas' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,688 - [+] 'Star Wars: The Force Awakens' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,697 - [+] 'The Silence of the Lambs' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,708 - [+] 'Saving Private Ryan' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,867 - [+] 'Seven Days' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,878 - [+] 'Interstellar' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,882 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'The Green Mile' trong Drive!
+2026-03-19 03:06:53,892 - [+] 'The Green Mile' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,903 - [+] 'Gladiator II' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,911 - [+] 'The Lion King' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,920 - [+] 'Back To The Future Part III' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,929 - [+] 'Terminator 2: Judgment Day' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,933 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Aliens Among Immortals' trong Drive!
+2026-03-19 03:06:53,945 - [+] 'Aliens Among Immortals' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,949 - [-] CHÚ Ý: Không tìm thấy file sub nào cho phim 'Joker: Folie à Deux' trong Drive!
+2026-03-19 03:06:53,956 - [+] 'Joker: Folie à Deux' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,966 - [+] 'Toy Story 4' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,975 - [+] 'The Dark Knight' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:53,984 - [+] 'Eternal Sunshine of the Spotless Mind' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,000 - [+] 'Mad Max: Fury Road' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,013 - [+] 'Whiplash' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,036 - [+] 'The Lord of the Rings: The Fellowship of the Ring' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,049 - [+] 'The Prestige' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,065 - [+] 'The Departed' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,071 - [+] 'Female Fight Club' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,080 - [+] 'Memento' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,090 - [+] 'No Country for Old Men' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,102 - [+] 'Braveheart' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,111 - [+] 'The Usual Suspects' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,121 - [+] 'Apocalypse Now' đã cắt ảnh xong. Bỏ qua.
+2026-03-19 03:06:54,133 - [+] 'The Shining' đã cắt ảnh xong. Bỏ qua.
